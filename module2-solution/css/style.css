@@ -1,8 +1,29 @@
-@media screen and (min-width: 992px)
+@media (min-width: 992px)
 {
 #headerid{
 	text-align: center;
 	font-family: cursive;
+	font-weight: bold;
+}
+#s1{
+width: 30%;
+height: 50%;
+border: 1px solid black;
+}
+#s2{
+
+}
+#s3{
+
+}	
+}
+/*****************End Desktop View***************/
+@media (min-width: 768px)and (max-width: 991px)
+{
+#headerid{
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
 }
 #s1{
 
@@ -14,3 +35,22 @@
 
 }	
 }
+/*****************End Tablet View***************/
+@media(max-width: 767px)
+{
+#headerid{
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+}
+#s1{
+
+}
+#s2{
+
+}
+#s3{
+
+}	
+}
+/*****************End Mobile View***************/
